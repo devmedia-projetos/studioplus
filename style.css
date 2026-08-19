@@ -418,6 +418,35 @@ nav ul li a:hover {
 textarea.campo {
   resize: vertical;
 }
+/* ===========================
+   TECNOLOGIAS
+=========================== */
+.tecnologias h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  color: #1a1a2e;
+}
+
+.tecnologias-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.tecnologia {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  flex: 1 1 8rem;
+  text-align: center;
+}
+
+.tecnologia-nome {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1a1a2e;
+}
 
 /* ===========================
    SIDEBAR
