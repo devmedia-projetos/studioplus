@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Plus</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/logo.png" type="image/x-icon">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="logo">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="8" fill="#e94560"/>
+        <text x="7" y="23" font-family="Arial" font-size="18" font-weight="bold" fill="#fff">S+</text>
+      </svg>
+      <span>Studio Plus</span>
+    </div>
+    <nav class="menu">
+      <ul class="menu-links" id="menu-aberto">
+        <li><a href="#header" class="menu-fechar">✕</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#avaliacoes">Avaliações</a></li>
+        <li><a href="#parceiros">Parceiros</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+
+    <a href="#menu-aberto" class="menu-icone">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-texto">
+      <h1>Criamos experiências digitais que funcionam em qualquer tela</h1>
+      <p>Design responsivo, código limpo e foco no que importa: o resultado que o seu usuário vai ver.</p>
+      <a href="#contato" class="btn-primario">Começar projeto</a>
+    </div>
+    <div class="hero-imagem">
+      <img src="./assets/banner.png" alt="Projeto digital Studio Plus">
+    </div>
+  </section>
+
+  <!-- LAYOUT PRINCIPAL -->
+  <div class="pagina">
+
+    <main class="conteudo">
+
+      <!-- SOBRE -->
+      <section class="sobre" id="sobre">
+        <div class="sobre-imagem">
+          <img src="./assets/sobre.png" alt="Equipe Studio Plus">
+        </div>
+        <div class="sobre-texto">
+          <h2>Sobre a Studio Plus</h2>
+          <p>Somos um estúdio digital especializado em criar soluções web que combinam design cuidadoso e tecnologia eficiente. Nosso foco é entregar produtos que funcionam bem para quem usa e para quem mantém.</p>
+          <p>Desde 2018 trabalhamos com empresas de diferentes tamanhos, do primeiro site ao redesign completo de plataformas consolidadas.</p>
+          <a href="#contato" class="btn-secundario">Conheça nosso trabalho</a>
+        </div>
+      </section>
+
+      <!-- SERVIÇOS -->
+      <section class="servicos" id="servicos">
+        <h2>Nossos serviços</h2>
+        <div class="cards">
+          <div class="card">
+            
+            <h3>Design de Interface</h3>
+            <p>Layouts pensados para cada dispositivo, do mobile ao desktop, com foco em usabilidade e clareza visual.</p>
+          </div>
+          <div class="card">
+            
+            <h3>Desenvolvimento Web</h3>
+            <p>HTML, CSS e JavaScript com boas práticas, código organizado e performance como prioridade.</p>
+          </div>
+          <div class="card">
+            
+            <h3>Sites Responsivos</h3>
+            <p>Páginas que se adaptam a qualquer tela, garantindo uma boa experiência independente do dispositivo.</p>
+          </div>
+          <div class="card">
+            
+            <h3>Otimização de Performance</h3>
+            <p>Páginas rápidas e leves que carregam bem em qualquer conexão e melhoram o posicionamento no Google.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- AVALIAÇÕES -->
+      <section class="avaliacoes" id="avaliacoes">
+        <h2>O que dizem sobre nós</h2>
+        <div class="avaliacoes-grid">
+          <div class="avaliacao-card">
+            <img src="./assets/pessoal-icone.png" alt="Cliente Ana Lima" class="avaliacao-foto">
+            <div>
+              <p class="avaliacao-texto">"O resultado superou o que esperávamos. O site ficou muito mais rápido e o design ficou exatamente como precisávamos."</p>
+              <p class="avaliacao-autor">Ana Lima — Diretora, Grupo Viva</p>
+              <p class="avaliacao-estrelas">★★★★★</p>
+            </div>
+          </div>
+          <div class="avaliacao-card">
+            <img src="./assets/pessoal-icone.png" alt="Cliente Carlos Mota" class="avaliacao-foto">
+            <div>
+              <p class="avaliacao-texto">"Profissionalismo do início ao fim. Entregaram antes do prazo e o suporte após a entrega foi excelente."</p>
+              <p class="avaliacao-autor">Carlos Mota — CEO, CoreTech</p>
+              <p class="avaliacao-estrelas">★★★★★</p>
+            </div>
+          </div>
+          <div class="avaliacao-card">
+            <img src="./assets/pessoal-icone.png" alt="Cliente Fernanda Souza" class="avaliacao-foto">
+            <div>
+              <p class="avaliacao-texto">"Nossa taxa de conversão aumentou depois do redesign. Recomendo sem hesitar para qualquer empresa que queira crescer online."</p>
+              <p class="avaliacao-autor">Fernanda Souza — Fundadora, Loja Ativa</p>
+              <p class="avaliacao-estrelas">★★★★★</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PARCEIROS -->
+      <section class="parceiros" id="parceiros">
+        <h2>Empresas que confiam na Studio Plus</h2>
+        <div class="parceiros-grid">
+          <div class="parceiro">
+            <img src="./assets/alfa_tech.png" alt="Alfa Tech">
+          </div>
+          <div class="parceiro">
+            <img src="./assets/agencia_viagens.png" alt="Agência Viagens">
+          </div>
+          <div class="parceiro">
+            <img src="./assets/pet_shop.png" alt="PetShop">
+          </div>        
+        </div>
+      </section>
+
+      <!-- CONTATO -->
+      <section class="contato" id="contato">
+        <div class="contato-texto">
+          <h2>Vamos conversar sobre o seu projeto?</h2>
+          <p>Conte o que você precisa e a gente entra em contato para entender melhor como podemos ajudar.</p>
+        </div>
+        <form class="contato-form">
+          <input type="text" placeholder="Seu nome" class="campo">
+          <input type="email" placeholder="Seu e-mail" class="campo">
+          <textarea placeholder="Descreva seu projeto" class="campo" rows="5"></textarea>
+          <button type="submit" class="btn-primario">Enviar mensagem</button>
+        </form>
+      </section>
+
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <nav class="sidebar-nav">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+          <li><a href="#parceiros">Parceiros</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="sidebar-bloco">
+        <h4>Última avaliação</h4>
+        <img src="./assets/pessoal-icone.png" alt="Ana Lima" class="sidebar-foto">
+        <p class="sidebar-depoimento">"O resultado superou o que esperávamos."</p>
+        <p class="sidebar-autor">Ana Lima — Grupo Viva</p>
+        <p class="sidebar-estrelas">★★★★★</p>
+      </div>
+      <div class="sidebar-bloco sidebar-cta">
+        <h4>Pronto para começar?</h4>
+        <p>Fale com a nossa equipe e receba uma proposta personalizada.</p>
+        <a href="#contato" class="btn-primario btn-bloco">Fale conosco</a>
+      </div>
+      <div class="sidebar-redes">
+        <h4>Redes sociais</h4>
+        <div class="redes-links">
+          <a href="#" class="rede-link">Instagram</a>
+          <a href="#" class="rede-link">LinkedIn</a>
+          <a href="#" class="rede-link">Behance</a>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-conteudo">
+      <div class="footer-logo">
+        <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="8" fill="#e94560"/>
+          <text x="7" y="23" font-family="Arial" font-size="18" font-weight="bold" fill="#fff">S+</text>
+        </svg>
+        <span>Studio Plus</span>
+      </div>
+      <p>&copy; 2026 Studio Plus. Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="#">Privacidade</a>
+        <a href="#">Termos</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOTÃO WHATSAPP -->
+  <a href="https://wa.me/5500000000000" class="whatsapp-btn" target="_blank" aria-label="Fale pelo WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="28" height="28">
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.558 4.112 1.528 5.832L0 24l6.336-1.508A11.934 11.934 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm6.2 16.8c-.26.73-1.52 1.39-2.09 1.44-.54.05-1.05.24-3.54-.74-2.99-1.18-4.9-4.22-5.05-4.42-.15-.2-1.2-1.6-1.2-3.05s.76-2.16 1.03-2.46c.27-.3.59-.37.78-.37.2 0 .39.002.56.01.18.008.42-.068.66.5.25.59.84 2.05.91 2.2.07.15.12.33.02.53-.1.2-.15.32-.3.49-.14.17-.3.38-.43.51-.14.14-.29.29-.12.57.17.28.74 1.22 1.59 1.97 1.09.97 2.01 1.27 2.29 1.41.28.14.44.12.6-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.64-.14.26.1 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.65-.19 1.38z"/>
+    </svg>
+  </a>
+
+</body>
+</html>
